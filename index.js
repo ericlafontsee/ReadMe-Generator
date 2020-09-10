@@ -17,6 +17,7 @@ const questions = [
         name: "Installation"
     },
     {
+        type: "list",
         message: "What type of license did you use?",
         name: "License",
         choices: [
@@ -57,42 +58,22 @@ const questions = [
 //     const testing = data.Testing;
 //     const filename = title.toLowerCase().split(' ').join('') + ".json";
 
-// var result = (`
-//         # ${title} 
-
-//         ${description}
-//         * [Installation](#Installation)
-//         * [License](#License)
-//         * [Contributors](#Contributors)
-//         * [Author](#Author)
-//         * [Tests](#Tests)
-//         ## Installation
-//         ${installation}
-//         ## License 
-//         This project is licensed under the ${license}.
-//         ## Contributors
-//         ${contributors}
-
-//         ## Tests
-//         ${testing}
-
-//                     `);
 
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(filename, data, err => {
-        if (err) throw err;
+    fs.writeFile(fileName, data, err => {
+        if (err) console.log(err);
         console.log("Works");
     });
 }
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions, answers => {
+    inquirer.prompt(questions).then(answers => {
         console.log(answers);
         const answersData = generateMarkdown(answers);
-        writeToFile("README.md", answersData);
+        writeToFile("ReadMeTest.md", answersData);
     });
 }
 
