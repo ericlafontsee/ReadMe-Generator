@@ -1,8 +1,8 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-    return `# ${data.Title}
+    return `# ${data.title}
 ## Description
-${data.Description}
+${data.sescription}
 
 ## Table Of Contents
 * [Installation](#Installation)
@@ -11,30 +11,29 @@ ${data.Description}
 * [Testing](#Testing)
 * [Questions](#Questions)
 * [License](#License)
-* [Contributors](#Contributors)
-* [Author](#Author)
-* [Tests](#Tests)
+
+
 
 ## Installation
-${data.Installation}
+${data.installation}
 
 ## Usage
-${data.Usage}
+${data.usage}
 ![Image/GIF](${data.usageMedia})
 
 ## Contributors
-${data.Contributors}
+${data.contributors}
 
 ## Tests
-${data.Testing}
+${data.testing}
 
 ## Questions
-${data.Questions}  
+GitHub: https://github.com/${data.questions}   
 If you have any additional questions, please send them to: ${data.Contact}
 
 ## License 
-This project is licensed under the ${data.License}. 
-![GitHub license](https://img.shields.io/badge/license-${data.License}-blue.svg)
+This project is licensed under the ${data.license}. 
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
   
 `

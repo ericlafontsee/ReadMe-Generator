@@ -6,20 +6,20 @@ const questions = [
 
     {
         message: "What is your project title?",
-        name: "Title"
+        name: "title"
     },
     {
         message: "Provide a description",
-        name: "Description"
+        name: "description"
     },
     {
         message: "What are the installation instructions?",
-        name: "Installation"
+        name: "installation"
     },
     {
         type: "list",
         message: "What type of license did you use?",
-        name: "License",
+        name: "license",
         choices: [
             "MIT",
             "GPL",
@@ -29,7 +29,7 @@ const questions = [
     },
     {
         message: "Please enter any Usage Information",
-        name: "Usage"
+        name: "usage"
     },
     {
         message: "Please enter any Usage images/gif urls",
@@ -37,19 +37,19 @@ const questions = [
     },
     {
         message: "Please enter any Contribution Guidelines",
-        name: "Contributors"
+        name: "contributors"
     },
     {
         message: "Please enter any Test Instructions.",
-        name: "Testing"
+        name: "testing"
     },
     {
         message: "Please enter your GitHub username.",
-        name: "Questions"
+        name: "questions"
     },
     {
         message: "Please enter your email.",
-        name: "Contact"
+        name: "contact"
     }
 
 ];

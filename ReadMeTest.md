@@ -1,6 +1,6 @@
 # eric
 ## Description
-asdfl;kj
+undefined
 
 ## Table Of Contents
 * [Installation](#Installation)
@@ -9,26 +9,25 @@ asdfl;kj
 * [Testing](#Testing)
 * [Questions](#Questions)
 * [License](#License)
-* [Contributors](#Contributors)
-* [Author](#Author)
-* [Tests](#Tests)
+
+
 
 ## Installation
-asdflkj
+asf
 
 ## Usage
-asdfl;kj
-![Image/GIF](readmedemo.png)
+af
+![Image/GIF]()
 
 ## Contributors
-lkasjdf
+
 
 ## Tests
-sdfkljh
+
 
 ## Questions
-asdlkfjh  
-If you have any additional questions, please send them to: asdflk
+GitHub: https://github.com/ericlafontsee   
+If you have any additional questions, please send them to: undefined
 
 ## License 
 This project is licensed under the MIT. 
