@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
     return `# ${data.title}
 ## Description
-${data.sescription}
+${data.description}
 
 ## Table Of Contents
 * [Installation](#Installation)
@@ -38,8 +38,5 @@ This project is licensed under the ${data.license}.
   
 `
 };
-
-
-
 
 module.exports = generateMarkdown;

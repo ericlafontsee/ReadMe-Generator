@@ -5,6 +5,7 @@ For this project, I created a CLI app that takes a user's input to a series of q
 and generates a README.md file for their project.
 
 ## Usage
+
 ![README-Generator-Demo]()
 
 
@@ -13,7 +14,7 @@ Node.js
 Javascript
 
 ## Prerequisites
-To build or edit this application you will need Visual Studio Code
+To build or edit this application you will need Visual Studio Code as well as node.js installed.
 
 ## Installation
 * When you first setup the project, open up the intergrated terminal in VS Code and navigate to the root directory of your project. Then input:  
