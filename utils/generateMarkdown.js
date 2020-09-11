@@ -20,7 +20,7 @@ ${data.Installation}
 
 ## Usage
 ${data.Usage}
-![Image/GIF](${usageMedia})
+![Image/GIF](${data.usageMedia})
 
 ## Contributors
 ${data.Contributors}
@@ -29,7 +29,7 @@ ${data.Contributors}
 ${data.Testing}
 
 ## Questions
-${data.Questions}
+${data.Questions}  
 If you have any additional questions, please send them to: ${data.Contact}
 
 ## License 
