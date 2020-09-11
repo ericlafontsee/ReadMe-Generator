@@ -19,17 +19,17 @@ ${data.installation}
 
 ## Usage
 ${data.usage}
-![Image/GIF](${data.usageMedia})
+
 
 ## Contributors
 ${data.contributors}
 
-## Tests
+## Testing
 ${data.testing}
 
 ## Questions
 GitHub: https://github.com/${data.questions}   
-If you have any additional questions, please send them to: ${data.Contact}
+If you have any additional questions, please send them to: ${data.contact}
 
 ## License 
 This project is licensed under the ${data.license}. 

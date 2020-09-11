@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 var generateMarkdown = require("./utils/generateMarkdown.js");
+const { url } = require("inspector");
 
 const questions = [
 
@@ -32,10 +33,6 @@ const questions = [
         name: "usage"
     },
     {
-        message: "Please enter any Usage images/gif urls",
-        name: "usageMedia"
-    },
-    {
         message: "Please enter any Contribution Guidelines",
         name: "contributors"
     },
@@ -48,6 +45,7 @@ const questions = [
         name: "questions"
     },
     {
+        type: "url",
         message: "Please enter your email.",
         name: "contact"
     }
