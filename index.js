@@ -32,33 +32,27 @@ const questions = [
         name: "Usage"
     },
     {
+        message: "Please enter any Usage images/gif urls",
+        name: "usageMedia"
+    },
+    {
         message: "Please enter any Contribution Guidelines",
         name: "Contributors"
     },
     {
         message: "Please enter any Test Instructions.",
         name: "Testing"
+    },
+    {
+        message: "Please enter your GitHub username.",
+        name: "Questions"
+    },
+    {
+        message: "Please enter your email.",
+        name: "Contact"
     }
 
 ];
-// const { Title } = await prompt(questions);
-// console.log(Title);
-// const answersData = generateMarkdown(answers);
-
-// writeToFile("READ.md", answersData);
-// };
-// ).then(function(data) {
-//     console.log(data);
-//     const title = data.Title;
-//     const description = data.Description;
-//     const installation = data.installation;
-//     const license = data.License;
-//     const usage = data.Usage;
-//     const contributors = data.Contributors;
-//     const testing = data.Testing;
-//     const filename = title.toLowerCase().split(' ').join('') + ".json";
-
-
 
 // function to write README file
 function writeToFile(fileName, data) {
